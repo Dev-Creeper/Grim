@@ -115,11 +115,11 @@ TimerA:
   drift: 120
   # Ping at which the check will start to limit timer balance, to prevent abuse.
   # Can cause some setbacks for legitimate players but only if they are over this ping threshold.
-  # -1 to disable
+  # -1 关闭
   ping-abuse-limit-threshold: 1000
 
 NegativeTimer:
-  # Number of milliseconds lost while moving before we should start flagging
+  # 当玩家违规后多少毫秒我们必须启用 flagging
   drift: 1200
 
 # 与 TimerA 相同的检查方法，但适用于坐骑
